@@ -13,6 +13,14 @@
 		ADE9307B1B27351E00393F76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE9307A1B27351E00393F76 /* Images.xcassets */; };
 		ADE9307E1B27351E00393F76 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADE9307C1B27351E00393F76 /* LaunchScreen.xib */; };
 		ADE9308A1B27351E00393F76 /* Sound_ShakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE930891B27351E00393F76 /* Sound_ShakerTests.swift */; };
+		ADE9309C1B27371900393F76 /* bean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ADE930941B27371900393F76 /* bean.mp3 */; };
+		ADE9309D1B27371900393F76 /* belch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ADE930951B27371900393F76 /* belch.mp3 */; };
+		ADE9309E1B27371900393F76 /* giggle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ADE930961B27371900393F76 /* giggle.mp3 */; };
+		ADE9309F1B27371900393F76 /* pew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ADE930971B27371900393F76 /* pew.mp3 */; };
+		ADE930A01B27371900393F76 /* pig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ADE930981B27371900393F76 /* pig.mp3 */; };
+		ADE930A11B27371900393F76 /* snore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ADE930991B27371900393F76 /* snore.mp3 */; };
+		ADE930A21B27371900393F76 /* static.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ADE9309A1B27371900393F76 /* static.mp3 */; };
+		ADE930A31B27371900393F76 /* uuu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ADE9309B1B27371900393F76 /* uuu.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		ADE930831B27351E00393F76 /* Sound ShakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sound ShakerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE930881B27351E00393F76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADE930891B27351E00393F76 /* Sound_ShakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound_ShakerTests.swift; sourceTree = "<group>"; };
+		ADE930941B27371900393F76 /* bean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bean.mp3; sourceTree = "<group>"; };
+		ADE930951B27371900393F76 /* belch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = belch.mp3; sourceTree = "<group>"; };
+		ADE930961B27371900393F76 /* giggle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = giggle.mp3; sourceTree = "<group>"; };
+		ADE930971B27371900393F76 /* pew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pew.mp3; sourceTree = "<group>"; };
+		ADE930981B27371900393F76 /* pig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pig.mp3; sourceTree = "<group>"; };
+		ADE930991B27371900393F76 /* snore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snore.mp3; sourceTree = "<group>"; };
+		ADE9309A1B27371900393F76 /* static.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = static.mp3; sourceTree = "<group>"; };
+		ADE9309B1B27371900393F76 /* uuu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uuu.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,7 @@
 				ADE930751B27351E00393F76 /* ViewController.swift */,
 				ADE930771B27351E00393F76 /* Main.storyboard */,
 				ADE9307A1B27351E00393F76 /* Images.xcassets */,
+				ADE930931B27365000393F76 /* Sounds */,
 				ADE9307C1B27351E00393F76 /* LaunchScreen.xib */,
 				ADE930711B27351E00393F76 /* Supporting Files */,
 			);
@@ -110,6 +127,21 @@
 				ADE930881B27351E00393F76 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADE930931B27365000393F76 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				ADE930941B27371900393F76 /* bean.mp3 */,
+				ADE930951B27371900393F76 /* belch.mp3 */,
+				ADE930961B27371900393F76 /* giggle.mp3 */,
+				ADE930971B27371900393F76 /* pew.mp3 */,
+				ADE930981B27371900393F76 /* pig.mp3 */,
+				ADE930991B27371900393F76 /* snore.mp3 */,
+				ADE9309A1B27371900393F76 /* static.mp3 */,
+				ADE9309B1B27371900393F76 /* uuu.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +188,7 @@
 		ADE930661B27351E00393F76 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = LiquidGroup;
 				TargetAttributes = {
@@ -192,9 +225,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE9309C1B27371900393F76 /* bean.mp3 in Resources */,
+				ADE930A11B27371900393F76 /* snore.mp3 in Resources */,
+				ADE9309E1B27371900393F76 /* giggle.mp3 in Resources */,
+				ADE930A31B27371900393F76 /* uuu.mp3 in Resources */,
+				ADE9309D1B27371900393F76 /* belch.mp3 in Resources */,
+				ADE930A21B27371900393F76 /* static.mp3 in Resources */,
 				ADE930791B27351E00393F76 /* Main.storyboard in Resources */,
 				ADE9307E1B27351E00393F76 /* LaunchScreen.xib in Resources */,
+				ADE930A01B27371900393F76 /* pig.mp3 in Resources */,
 				ADE9307B1B27351E00393F76 /* Images.xcassets in Resources */,
+				ADE9309F1B27371900393F76 /* pew.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +450,7 @@
 				ADE9308F1B27351E00393F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADE930901B27351E00393F76 /* Build configuration list for PBXNativeTarget "Sound ShakerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +459,7 @@
 				ADE930921B27351E00393F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
